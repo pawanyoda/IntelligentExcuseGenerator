@@ -5,7 +5,6 @@ import pytest
 
 @pytest.mark.filterwarnings("ignore:Model load failed")
 def test_mock_generator():
-    """Test mock fallback path"""
     with patch('src.models.excuse_generator.pipeline', side_effect=Exception("Test error")):
         gen = ExcuseGenerator()
         assert gen.using_mock is True
