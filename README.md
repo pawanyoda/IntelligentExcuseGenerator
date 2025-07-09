@@ -95,7 +95,7 @@ streamlit run src/app.py
   <img src="img/intell-1.png" alt="Right image" width="300"/>
 </div>
 
-<br>
+-----------------
 
 ## What This Program Actually Does
 ### This Intelligent Excuse Generator is an AI-powered tool that:
